@@ -23,7 +23,7 @@ classifiers = [
 dependencies = []
 
 [project.scripts]
-karentify = "karentify.__main__:main"
+karentify = "karentify.__main__:run"
 
 [project.urls]
 homepage = "https://github.com/dickerdackel/karentify"
