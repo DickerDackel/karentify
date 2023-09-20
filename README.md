@@ -20,7 +20,7 @@ kArEnTiFy hAs yOu cOvErEd!!!
 
 ### I WaNt tO MaKe mY PoInT VeRy cLeAr:!!!
 
-```
+```console
 karen@localhost:~$ karentify is that clear? --dEmAnD-MaNaGeR
 iS ThAt cLeAr!!!
 AnD I WoUlD LiKe tO TaLk tO YoUr mAnAgEr!!!
@@ -31,7 +31,7 @@ NoTe tHe fEaTuRe oF Ai aSsIsTeT AuToMaTiC DoUbT ReMoVaL!!!
 
 ### My long form text needs authority:
 
-```
+```console
 karen@localhost:~$ cat lipsum.txt | fold | karentify --dEmAnD-MaNaGeR
 LoReM IpSuM DoLoR SiT AmEt, CoNsEtEtUr sAdIpScInG ElItR, sEd dIaM NoNuMy eIrMoD!!!
 tEmPoR InViDuNt uT LaBoRe eT DoLoRe mAgNa aLiQuYaM ErAt, SeD DiAm vOlUpTuA. aT V!!!
@@ -60,7 +60,7 @@ karen@localhost:~$
 NoTe hOw tHe vIsUaL StAtEmEnT FoLlOwInG RaNdOm sEnTeNcEs mAkEs yOuR PoInT So!!!
 MuCh cLeArEr:!!!
 
-```
+```console
 karen@localhost:~$ head -1 lipsum.txt | fold | karentify --aCtInG-OuT
 LoReM IpSuM DoLoR SiT AmEt, CoNsEtEtUr sAdIpScInG ElItR, sEd dIaM NoNuMy eIrMoD!!![nervous eye twitching]!!!
 tEmPoR InViDuNt uT LaBoRe eT DoLoRe mAgNa aLiQuYaM ErAt, SeD DiAm vOlUpTuA. aT V!!!
@@ -83,7 +83,7 @@ TyPiNg tHeM InTo tHe pRoMpT Or aDdInG ThEm aS ArGuMeNtS!!!
 
 tO EsCaLaTe iSsUeS FuRtHeR, uSe tHe `--dEmAnD-MaNaGeR` OpTiOn!!!
 
-```shell
+```console
 karentify --dEmAnD-MaNaGeR i have never been treated like this
 
 i hAvE NeVeR BeEn tReAtEd lIkE ThIs!!!
