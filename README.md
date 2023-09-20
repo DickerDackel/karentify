@@ -84,10 +84,11 @@ TyPiNg tHeM InTo tHe pRoMpT Or aDdInG ThEm aS ArGuMeNtS!!!
 tO EsCaLaTe iSsUeS FuRtHeR, uSe tHe `--dEmAnD-MaNaGeR` OpTiOn!!!
 
 ```console
-karentify --dEmAnD-MaNaGeR i have never been treated like this
+karen@localhost:~$ karentify --dEmAnD-MaNaGeR i have never been treated like this
 
 i hAvE NeVeR BeEn tReAtEd lIkE ThIs!!!
 AnD I WoUlD LiKe tO TaLk tO YoUr mAnAgEr!!!
+karen@localhost:~$
 ```
 
 iT CaN AlSo bE UsEd aS A FiLtEr fRoM YoUr eDiToR.!!!
@@ -108,7 +109,7 @@ wElL!!!
 
 ### KaReNtIfY Is aVaIlAbLe oN PyPi!!!
 
-```python
+```shell
 pip install karentify
 ```
 
