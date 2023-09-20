@@ -25,7 +25,7 @@ def karentify(s):
     global tiktok
 
     if tiktok is None:
-        tiktok = s[0].islower()
+        tiktok = s[0].islower() if s else True
 
     return ''.join([c.upper() if (tiktok := not tiktok) else c.lower()  # noqa: F841
                     for c in s])
