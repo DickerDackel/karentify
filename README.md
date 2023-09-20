@@ -9,9 +9,9 @@ mAkE SuRe, YoU ArE HeArD As a vAlUeD CuStOmEr bY UnLeAsHiNg yOuR InNeR KaReN!!!
 * aLl sHoRt oPtIoNs aRe cApS OnLy!!!
 * LoNg oPtIoNs aLl kArEnTiFiEd tO Be vErY ClEaR AbOuT ThEm!!!
 * MuLtIpLe iNpUt fEeDs, Be iT!!!
-** ...tHaT YoU WaNt tO StAtE YoUr vAlId dEmAnDs dIrEcTlY On tHe cOmMaNdLiNe!!!
-** ...Or yOu wAnT To iNtErAcTiVeLy sTaTe tHeM!!!
-** ...oR YoU WaNt tO RaIsE ThE SeRiOuSnEsS In aN ExIsTiNg bOdY Of tExT!!!
+  * ...tHaT YoU WaNt tO StAtE YoUr vAlId dEmAnDs dIrEcTlY On tHe cOmMaNdLiNe!!!
+  * ...Or yOu wAnT To iNtErAcTiVeLy sTaTe tHeM!!!
+  * ...oR YoU WaNt tO RaIsE ThE SeRiOuSnEsS In aN ExIsTiNg bOdY Of tExT!!!
 * DoCuMeNtAtIoN CoMeS FrOm a pOiNt oF EdUcAtEd aUtHoRiTy!!!
 
 kArEnTiFy hAs yOu cOvErEd!!!
