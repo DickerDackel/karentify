@@ -11,30 +11,39 @@ REACTIONS = ['inaudible', 'incomprehensible', 'enraged hairflip',
 
 def main(args):
     cmdline = argparse.ArgumentParser(description='Unleash your inner Karen on `s`')
-    cmdline.add_argument('--dEmAnD-MaNaGeR', '-D', action='store_true',
-                         help='Demand to speak to somebody with actual authority')
+    cmdline.add_argument('--dEmAnD-MaNaGeR', '-D', action='store_true', help='Demand to speak to somebody with actual authority')
+    cmdline.add_argument('--AcT-ApPrOpRiAtElY', '-A', action='store_true', help='Make visually clear that this issue is serious')
     cmdline.add_argument('entitlement', type=str, nargs='*', help='Your important message')
     opts = cmdline.parse_args(args)
 
-    if len(opts.entitlement) > 1:
-        print(karentify(' '.join(opts.entitlement)) + '!!!')
+    def wrangle_demand(s):
+        s = s.strip().rstrip('.!?,')
+
+        if len(s):
+            demand = karentify(s)
+        elif opts.AcT_ApPrOpRiAtElY:
+            demand = f'[{choice(REACTIONS)}]'
+        else:
+            demand = ''
+
+        if s != demand:
+            # Yes, I know there could be a line break mid sentence.
+            # This is still the correct behaviour.
+            return f'{demand}!!!'
+        else:
+            return s
+
+    if len(opts.entitlement) > 0:
+        print(wrangle_demand(' '.join(opts.entitlement)))
     else:
         if sys.stdin.isatty():
             print('Hello, how can I help you?')
 
-        for s in [_.strip() for _ in sys.stdin]:
-            if len(s):
-                demand = karentify(s)
-            else:
-                demand = f'[{choice(REACTIONS)}]'
-
-            if s != demand:
-                print(f'{demand}!!!')
-            else:
-                print(s)
+        for s in sys.stdin:
+            print(wrangle_demand(s))
 
     if opts.dEmAnD_MaNaGeR:
-        print(karentify('and I would like to talk to your manager') + '!!!')
+        print(wrangle_demand('and I would like to talk to your manager'))
 
 
 def run():
