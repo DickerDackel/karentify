@@ -29,7 +29,7 @@ karen@localhost:~$
 
 NoTe tHe fEaTuRe oF Ai aSsIsTeT AuToMaTiC DoUbT ReMoVaL!!!
 
-### My long form text needs authority:
+### My lOnG FoRm tExT NeEdS AuThOrItY:!!!
 
 ```console
 karen@localhost:~$ cat lipsum.txt | fold | karentify --dEmAnD-MaNaGeR
