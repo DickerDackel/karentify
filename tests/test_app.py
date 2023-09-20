@@ -1,6 +1,8 @@
 import pytest  # noqa: F401
 
 import karentify
+import karentify.__main__
+
 from karentify.__main__ import main
 
 
@@ -29,14 +31,16 @@ def test_manager(capfd):
 
 
 def test_acting_out(capfd):
+    karentify.__main__.ACTING_OUT_CHANCE = 1
+
     karentify.tiktok = None
-    main(['--AcT-ApPrOpRiAtElY', ''])
+    main(['--aCtInG-OuT', ''])
     out, err = capfd.readouterr()
     assert out.startswith('[')
     assert out.endswith(']!!!\n')
 
     karentify.tiktok = None
-    main(['-A', ''])
+    main(['-V', ''])
     out, _ = capfd.readouterr()
     assert out.startswith('[')
     assert out.endswith(']!!!\n')
