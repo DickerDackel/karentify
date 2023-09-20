@@ -13,7 +13,7 @@ TyPiNg tHeM InTo tHe pRoMpT Or aDdInG ThEm aS ArGuMeNtS!!!
 
 tO EsCaLaTe iSsUeS FuRtHeR, uSe tHe `--dEmAnD-MaNaGeR` OpTiOn!!!
 
-```
+```shell
 karentify --dEmAnD-MaNaGeR i have never been treated like this
 
 i hAvE NeVeR BeEn tReAtEd lIkE ThIs!!!
@@ -24,8 +24,18 @@ iT CaN AlSo bE UsEd aS A FiLtEr fRoM YoUr eDiToR.!!!
 
 ## aS A LiBrArY!!!
 
-```
+```python
 from karentify import karentify
 
 print(karentify('i have never been treated like this') + '!!!')
+```
+
+# InStAlLaTiOn!!!
+
+wHy wOuLd i nEeD To dO ThAt?  iSn't tHaT WhAt sErViCe eMpLoYeEs aRe fOr?!!!
+
+wElL!!!
+
+```python
+pip install karentify
 ```
