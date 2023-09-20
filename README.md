@@ -1,21 +1,28 @@
-# karentify
+# ThIs iS KaReNtIfY!!!
 
-UnLeAsH YoUr iNnEr kArEn oN A MeSsAgE.!!!
+uNlEaSh yOuR InNeR KaReN On a mEsSaGe!!!
 
-MaKe sUrE, yOu aRe hEaRd aS A VaLuEd cUsToMeR By uNlEaShInG YoUr iNnEr kArEn.!!!
+mAkE SuRe, YoU ArE HeArD As a vAlUeD CuStOmEr bY UnLeAsHiNg yOuR InNeR KaReN!!!
 
-# Usage
+# UsAgE!!!
 
-## Command line interface
+## cOmMaNd lInE InTeRfAcE!!!
+
+tHe kArEnTiFy cOmMaNd lInE InTeRfAcE MaKeS StAtInG YoUr dEmAnDs aS EaSy aS!!!
+TyPiNg tHeM InTo tHe pRoMpT Or aDdInG ThEm aS ArGuMeNtS!!!
+
+tO EsCaLaTe iSsUeS FuRtHeR, uSe tHe `--dEmAnD-MaNaGeR` OpTiOn!!!
 
 ```
-karentify --demand-manager i have never been treated like this
+karentify --dEmAnD-MaNaGeR i have never been treated like this
 
 i hAvE NeVeR BeEn tReAtEd lIkE ThIs!!!
 AnD I WoUlD LiKe tO TaLk tO YoUr mAnAgEr!!!
 ```
 
-## As a library
+iT CaN AlSo bE UsEd aS A FiLtEr fRoM YoUr eDiToR.!!!
+
+## aS A LiBrArY!!!
 
 ```
 from karentify import karentify
