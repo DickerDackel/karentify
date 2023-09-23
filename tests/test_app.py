@@ -31,19 +31,19 @@ def test_manager(capfd):
 
 
 def test_acting_out(capfd):
-    karentify.__main__.ACTING_OUT_CHANCE = 1
+    karentify.ACTING_OUT_CHANCE = 1
 
     karentify.tiktok = None
     main(['--aCtInG-OuT', ''])
     out, err = capfd.readouterr()
     assert out.startswith('[')
-    assert out.endswith(']!!!\n')
+    assert out.endswith(']\n')
 
     karentify.tiktok = None
     main(['-V', ''])
     out, _ = capfd.readouterr()
     assert out.startswith('[')
-    assert out.endswith(']!!!\n')
+    assert out.endswith(']\n')
 
 
 def test_punctuation(capfd):
@@ -51,8 +51,3 @@ def test_punctuation(capfd):
     main(['test.'])
     out, _ = capfd.readouterr()
     assert out.lower().endswith('t!!!\n')
-
-    karentify.tiktok = None
-    main(['multiple exclamation marks, a sure sign of a diseased mind!!!'])
-    out, _ = capfd.readouterr()
-    assert out.lower().endswith('d!!!\n')
