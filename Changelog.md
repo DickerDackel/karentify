@@ -1,3 +1,7 @@
+# v0.2.3
+- ReWoRk sHiT To bEtTeR InTeRfAcE ThE WeB VeRsIoN!!!
+- bUlLeT LiSt fIx!!!
+
 # v0.0.2
 
 - UpDaTe tEsTs wItH CuRrEnT DeVeLoPmEnT!!!
